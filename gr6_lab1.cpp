@@ -6,11 +6,42 @@ using namespace std;
 
 int main()
 {
-    for (int i = 1; i <= 100; i++)
-    {
-        cout << i << endl;
-        cout << i << endl;
-	}
+//zadanie1
+	cout << "X               X   X              X" << endl;
+	cout << " X             X     X            X  " << endl;
+	cout << "  X           X       X          X    " << endl;
+	cout << "  X    X      X       X    X     X     " << endl;
+	cout << "   X  X  X  X          X  X  X  X      " << endl;
+	cout << "    X      X            X     X        " << endl;
+	cout << endl << endl << endl;
+//zadanie2
+	cout << "            *        " << endl;
+	cout << "           * *       " << endl;
+	cout << "        *** * ***     " << endl;
+	cout << "          * * *      " << endl;
+	cout << "          *   *          " << endl;
+	cout << "                    " << endl;
+	cout << endl << endl << endl;
+
+//zadanie4
+	/*float a;
+	float b;
+	cout << "Podaj liczbe a: ";
+	cin >> a;
+	cout << "Podaj liczbe b: ";
+	cin >> b;
+	float c;
+	c = a * b;
+	cout << "wynik dodawania: " << a + b << endl;
+	cout << "wynik mnozenia: " << c << endl;*/
+//zadanie5
+	double f;
+	double c;
+	cout << "Podaj temperature w stopniach Fahrenheita: ";
+	cin >> f;
+	c = 5.0 * (f - 32.0) / 9.0;
+	cout << "Temperatura w stopniach Celsjusza: " << c << endl;
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
