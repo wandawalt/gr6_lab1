@@ -42,6 +42,7 @@ int main()
 	c = 5.0 * (f - 32.0) / 9.0;
 	cout << "Temperatura w stopniach Celsjusza: " << c << endl;
 	return 0;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
